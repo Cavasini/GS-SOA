@@ -1,0 +1,1194 @@
+{
+	"Tecnologia": [
+		{
+			"_id": "dev_frontend",
+			"area": "Tecnologia",
+			"nome": "Desenvolvedor Frontend",
+			"descricao": "Cria interfaces web modernas, responsivas e interativas.",
+			"rotina": "Trabalha com HTML, CSS, JavaScript e frameworks para desenvolver interfaces.",
+			"requisitos": ["HTML", "CSS", "JavaScript"],
+			"habilidades": ["React", "Next.js", "Tailwind", "TypeScript"],
+			"ferramentas": ["VS Code", "Figma", "Git"],
+			"tendencias": ["Design Systems", "Microfrontends", "WebAssembly", "IA em UI"],
+			"empresasQueContratam": ["Nubank", "Mercado Livre", "PicPay"],
+			"influenciadores": [
+				{
+					"nome": "Filipe Deschamps",
+					"plataforma": "YouTube",
+					"link": "https://www.youtube.com/@FilipeDeschamps"
+				}
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "React do Zero",
+					"canal": "Matheus Battisti",
+					"link": "https://www.youtube.com/watch?v=ErjWNvP6mko"
+				}
+			],
+			"comunidades": [{ "nome": "Frontend BR", "plataforma": "GitHub", "link": "https://github.com/frontendbr" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "HTML e CSS", "descricao": "Base de qualquer interface." },
+				{ "etapa": 2, "titulo": "JavaScript moderno", "descricao": "ES6+, assincronismo e DOM." },
+				{ "etapa": 3, "titulo": "Versionamento com Git", "descricao": "Fluxos Git e GitHub." },
+				{ "etapa": 4, "titulo": "CSS Avançado", "descricao": "Flexbox, Grid e responsividade." },
+				{ "etapa": 5, "titulo": "TypeScript", "descricao": "Tipagem para projetos profissionais." },
+				{ "etapa": 6, "titulo": "React básico", "descricao": "Componentes, props e estado." },
+				{ "etapa": 7, "titulo": "React avançado", "descricao": "Hooks, Context API, performance." },
+				{ "etapa": 8, "titulo": "Next.js", "descricao": "SSR, SSG e rotas modernas." },
+				{ "etapa": 9, "titulo": "Consumo de APIs", "descricao": "REST e GraphQL." },
+				{ "etapa": 10, "titulo": "Testes", "descricao": "Jest e React Testing Library." },
+				{ "etapa": 11, "titulo": "Arquitetura Frontend", "descricao": "Design system e atomic design." },
+				{ "etapa": 12, "titulo": "Performance Web", "descricao": "Otimizações importantes." },
+				{ "etapa": 13, "titulo": "Acessibilidade", "descricao": "Boas práticas de A11y." },
+				{ "etapa": 14, "titulo": "CI/CD básico", "descricao": "Vercel e Netlify." },
+				{ "etapa": 15, "titulo": "Projetos avançados", "descricao": "Dashboard, e-commerce, landing pages." }
+			]
+		},
+		{
+			"_id": "data_scientist",
+			"area": "Tecnologia",
+			"nome": "Cientista de Dados",
+			"descricao": "Extrai insights de dados utilizando estatística e machine learning.",
+			"rotina": "Analisa dados, treina modelos, cria relatórios e dashboards.",
+			"requisitos": ["Lógica", "Estatística", "Banco de dados"],
+			"habilidades": ["Python", "Pandas", "Machine Learning", "SQL"],
+			"ferramentas": ["Jupyter", "Power BI", "VS Code"],
+			"tendencias": ["IA Generativa", "ML Ops", "Data Lakehouse"],
+			"empresasQueContratam": ["Itaú", "XP", "Ambev Tech"],
+			"influenciadores": [
+				{ "nome": "André Sionek", "plataforma": "YouTube", "link": "https://www.youtube.com/@AndrSionek" }
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Machine Learning na prática",
+					"canal": "Hashtag Programação",
+					"link": "https://www.youtube.com/watch?v=KDuLWS8yjDg"
+				}
+			],
+			"comunidades": [{ "nome": "Data Hackers", "plataforma": "Discord", "link": "https://datahackers.com.br" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Python básico", "descricao": "Sintaxe e fundamentos." },
+				{ "etapa": 2, "titulo": "Pandas e Numpy", "descricao": "Manipulação de dados." },
+				{ "etapa": 3, "titulo": "Estatística", "descricao": "Probabilidade e distribuições." },
+				{ "etapa": 4, "titulo": "SQL", "descricao": "Consultas e modelagem." },
+				{ "etapa": 5, "titulo": "DataViz", "descricao": "Power BI e matplotlib." },
+				{ "etapa": 6, "titulo": "Machine Learning básico", "descricao": "Regressão e classificação." },
+				{ "etapa": 7, "titulo": "Machine Learning avançado", "descricao": "Árvores, SVM, ensembles." },
+				{ "etapa": 8, "titulo": "Deep Learning", "descricao": "Redes neurais e TensorFlow." },
+				{ "etapa": 9, "titulo": "Model Deployment", "descricao": "APIs com Flask e FastAPI." },
+				{ "etapa": 10, "titulo": "Feature Engineering", "descricao": "Seleção e criação de features." },
+				{ "etapa": 11, "titulo": "ML Ops", "descricao": "MLFlow, pipelines e monitoramento." },
+				{ "etapa": 12, "titulo": "Big Data", "descricao": "Spark e PySpark." },
+				{ "etapa": 13, "titulo": "Cloud", "descricao": "AWS S3, SageMaker." },
+				{ "etapa": 14, "titulo": "Projetos completos", "descricao": "Modelos do zero ao deploy." },
+				{ "etapa": 15, "titulo": "Portfólio", "descricao": "Cases reais, datasets públicos." }
+			]
+		},
+		{
+			"_id": "data_engineer",
+			"area": "Tecnologia",
+			"nome": "Engenheiro de Dados",
+			"descricao": "Constrói pipelines e infraestrutura de dados para análise e IA.",
+			"rotina": "Criação de ETL/ELT, arquiteturas cloud, monitoramento e qualidade de dados.",
+			"requisitos": ["SQL", "Lógica", "Python"],
+			"habilidades": ["Spark", "Airflow", "AWS", "Kubernetes"],
+			"ferramentas": ["Databricks", "Airflow", "Docker"],
+			"tendencias": ["Data Lakehouse", "Streaming", "Data Mesh"],
+			"empresasQueContratam": ["Loggi", "Hotmart", "B3"],
+			"influenciadores": [
+				{
+					"nome": "Jornada de Dados",
+					"plataforma": "YouTube",
+					"link": "https://www.youtube.com/@JornadaDeDados"
+				}
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Engenharia de Dados do Zero",
+					"canal": "Semana Data",
+					"link": "https://www.youtube.com/watch?v=Ky_Ej6LYPO8"
+				}
+			],
+			"comunidades": [
+				{ "nome": "Data Engineering BR", "plataforma": "LinkedIn", "link": "https://linkedin.com" }
+			],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Linux", "descricao": "Fundamentos e comandos." },
+				{ "etapa": 2, "titulo": "Python", "descricao": "Manipulação de dados." },
+				{ "etapa": 3, "titulo": "SQL avançado", "descricao": "Pipelines e modelagem." },
+				{ "etapa": 4, "titulo": "ETL/ELT", "descricao": "Boas práticas." },
+				{ "etapa": 5, "titulo": "Spark", "descricao": "Processamento distribuído." },
+				{ "etapa": 6, "titulo": "Airflow", "descricao": "Orquestração." },
+				{ "etapa": 7, "titulo": "Data Lake", "descricao": "S3, GCS." },
+				{ "etapa": 8, "titulo": "Data Warehouse", "descricao": "Redshift, BigQuery." },
+				{ "etapa": 9, "titulo": "Streaming", "descricao": "Kafka." },
+				{ "etapa": 10, "titulo": "Docker", "descricao": "Containers." },
+				{ "etapa": 11, "titulo": "Kubernetes", "descricao": "Orquestração." },
+				{ "etapa": 12, "titulo": "Infra as Code", "descricao": "Terraform." },
+				{ "etapa": 13, "titulo": "Monitoramento", "descricao": "Data Quality + observabilidade." },
+				{ "etapa": 14, "titulo": "Cloud avançado", "descricao": "Arquiteturas complexas." },
+				{ "etapa": 15, "titulo": "Projetos", "descricao": "Pipeline completo real-time." }
+			]
+		},
+		{
+			"_id": "devops_engineer",
+			"area": "Tecnologia",
+			"nome": "Engenheiro DevOps",
+			"descricao": "Integra desenvolvimento e operações para garantir deploy contínuo.",
+			"rotina": "Automação, pipelines, monitoramento e containers.",
+			"requisitos": ["Linux", "Scripting", "Redes"],
+			"habilidades": ["Docker", "Kubernetes", "CI/CD", "AWS"],
+			"ferramentas": ["GitHub Actions", "Terraform", "Prometheus"],
+			"tendencias": ["GitOps", "Plataformas internas de dev", "FinOps"],
+			"empresasQueContratam": ["C6 Bank", "PagSeguro", "TOTVS"],
+			"influenciadores": [
+				{ "nome": "Linuxtips", "plataforma": "YouTube", "link": "https://www.youtube.com/@linuxtips" }
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Docker do Zero",
+					"canal": "Linuxtips",
+					"link": "https://www.youtube.com/watch?v=Dn97Ww1y9eE"
+				}
+			],
+			"comunidades": [{ "nome": "DevOps Brasil", "plataforma": "Discord", "link": "https://devopsbr.com" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Linux", "descricao": "Comandos, processos e permissões." },
+				{ "etapa": 2, "titulo": "Git", "descricao": "Versionamento." },
+				{ "etapa": 3, "titulo": "Docker", "descricao": "Containers." },
+				{ "etapa": 4, "titulo": "Redes", "descricao": "Conceitos essenciais." },
+				{ "etapa": 5, "titulo": "CI/CD", "descricao": "Pipelines modernos." },
+				{ "etapa": 6, "titulo": "Cloud", "descricao": "AWS/GCP/Azure." },
+				{ "etapa": 7, "titulo": "Kubernetes básico", "descricao": "Pods, deployments e services." },
+				{ "etapa": 8, "titulo": "Kubernetes avançado", "descricao": "Ingress, autoscaling e helm." },
+				{ "etapa": 9, "titulo": "Terraform", "descricao": "Infraestrutura como código." },
+				{ "etapa": 10, "titulo": "Observabilidade", "descricao": "Prometheus e Grafana." },
+				{ "etapa": 11, "titulo": "Monitoramento CI/CD", "descricao": "Logs, métricas, alertas." },
+				{ "etapa": 12, "titulo": "Segurança DevOps", "descricao": "DevSecOps." },
+				{ "etapa": 13, "titulo": "FinOps", "descricao": "Otimização de custos cloud." },
+				{ "etapa": 14, "titulo": "Arquitetura", "descricao": "Alta disponibilidade e escalabilidade." },
+				{ "etapa": 15, "titulo": "Projetos avançados", "descricao": "Cluster produtivo completo." }
+			]
+		},
+		{
+			"_id": "cybersec_analyst",
+			"area": "Tecnologia",
+			"nome": "Analista de Cibersegurança",
+			"descricao": "Protege sistemas contra ataques e vulnerabilidades.",
+			"rotina": "Monitora redes, realiza testes, investiga incidentes.",
+			"requisitos": ["Redes", "Sistemas operacionais", "Criptografia"],
+			"habilidades": ["Pentest", "Análise de logs", "SIEM", "Cloud Security"],
+			"ferramentas": ["Kali Linux", "Splunk", "Wireshark"],
+			"tendencias": ["Zero Trust", "IA para segurança", "Threat Intelligence"],
+			"empresasQueContratam": ["Claro", "Serasa", "Banco do Brasil"],
+			"influenciadores": [
+				{
+					"nome": "Gabriela Nicoluci",
+					"plataforma": "YouTube",
+					"link": "https://www.youtube.com/@gabsnicoluci"
+				}
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Introdução à Cibersegurança",
+					"canal": "Cisco Brasil",
+					"link": "https://www.youtube.com/watch?v=l9kL6wj8d64"
+				}
+			],
+			"comunidades": [{ "nome": "Defcon Rio", "plataforma": "Discord", "link": "https://defconrio.com" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Fundamentos de redes", "descricao": "TCP/IP e protocolos." },
+				{ "etapa": 2, "titulo": "Linux e Windows", "descricao": "Sistemas operacionais." },
+				{ "etapa": 3, "titulo": "Shell Script", "descricao": "Automação." },
+				{ "etapa": 4, "titulo": "Pentest básico", "descricao": "Recon e scans." },
+				{ "etapa": 5, "titulo": "OWASP", "descricao": "Principais vulnerabilidades." },
+				{ "etapa": 6, "titulo": "Criptografia", "descricao": "Hash, simétrica e assimétrica." },
+				{ "etapa": 7, "titulo": "Threat Modeling", "descricao": "Modelos de ameaças." },
+				{ "etapa": 8, "titulo": "SIEM", "descricao": "Splunk, Elastic." },
+				{ "etapa": 9, "titulo": "DevSecOps", "descricao": "SAST, DAST, SCA." },
+				{ "etapa": 10, "titulo": "Cloud Security", "descricao": "AWS GuardDuty, IAM." },
+				{ "etapa": 11, "titulo": "Forense digital", "descricao": "Investigação de incidentes." },
+				{ "etapa": 12, "titulo": "Mitre ATT&CK", "descricao": "Mapeamento de ameaças." },
+				{ "etapa": 13, "titulo": "Resposta a incidentes", "descricao": "Playbooks e contenção." },
+				{ "etapa": 14, "titulo": "Hardening", "descricao": "Servidores e redes." },
+				{ "etapa": 15, "titulo": "Certificações", "descricao": "Security+, CEH." }
+			]
+		}
+	],
+	"Saúde": [
+		{
+			"_id": "enfermeiro",
+			"area": "Saúde",
+			"nome": "Enfermeiro(a)",
+			"descricao": "Profissional responsável pelos cuidados diretos aos pacientes, administração de medicamentos e suporte multidisciplinar.",
+			"rotina": "Realiza procedimentos clínicos, monitoramento, triagem e prestação de cuidados.",
+			"requisitos": ["Curso superior em Enfermagem", "Registro no COREN", "Noções de emergência"],
+			"habilidades": ["Atenção aos detalhes", "Comunicação", "Trabalho em equipe"],
+			"ferramentas": ["Prontuário Eletrônico", "Equipamentos de triagem", "Sistemas hospitalares"],
+			"tendencias": ["Tele-enfermagem", "Prontuário eletrônico avançado", "Especialização em UTIs"],
+			"empresasQueContratam": ["Hospital Albert Einstein", "Rede D'Or", "SUS"],
+			"influenciadores": [
+				{ "nome": "Enfermeira Lídia", "plataforma": "Instagram", "link": "https://www.instagram.com" }
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Rotina na enfermagem moderna",
+					"canal": "Enfermagem na Prática",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [
+				{ "nome": "Enfermagem Brasil", "plataforma": "Facebook", "link": "https://www.facebook.com" }
+			],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Anatomia", "descricao": "Compreender o corpo humano." },
+				{ "etapa": 2, "titulo": "Primeiros socorros", "descricao": "Bases do atendimento emergencial." },
+				{ "etapa": 3, "titulo": "Farmacologia básica", "descricao": "Aprender sobre medicamentos." },
+				{ "etapa": 4, "titulo": "Cuidados gerais", "descricao": "Procedimentos clínicos essenciais." },
+				{ "etapa": 5, "titulo": "Sinais vitais", "descricao": "Monitoramento e interpretação." },
+				{ "etapa": 6, "titulo": "Administração de medicamentos", "descricao": "Técnicas e segurança." },
+				{ "etapa": 7, "titulo": "Prontuário eletrônico", "descricao": "Digitalização no ambiente clínico." },
+				{ "etapa": 8, "titulo": "UTI básica", "descricao": "Rotina e procedimentos iniciais." },
+				{ "etapa": 9, "titulo": "Cuidados cirúrgicos", "descricao": "Atuação em centro cirúrgico." },
+				{ "etapa": 10, "titulo": "Especializações", "descricao": "Neonatal, cardiologia, oncologia etc." },
+				{ "etapa": 11, "titulo": "Humanização", "descricao": "Técnicas de acolhimento ao paciente." },
+				{ "etapa": 12, "titulo": "Saúde digital", "descricao": "Teleconsultas e monitoramento remoto." },
+				{ "etapa": 13, "titulo": "Pesquisa em Enfermagem", "descricao": "Evidências científicas." },
+				{ "etapa": 14, "titulo": "Gestão de equipes", "descricao": "Coordenação e liderança." },
+				{ "etapa": 15, "titulo": "Atuação avançada", "descricao": "Supervisão e atuação estratégica." }
+			]
+		},
+		{
+			"_id": "fisioterapeuta",
+			"area": "Saúde",
+			"nome": "Fisioterapeuta",
+			"descricao": "Ajuda pacientes na recuperação de movimentos e tratamento de lesões.",
+			"rotina": "Avaliação, exercícios terapêuticos, reabilitação e prevenção.",
+			"requisitos": ["Graduação em Fisioterapia", "CREFITO", "Conhecimento anatômico"],
+			"habilidades": ["Biomecânica", "Empatia", "Avaliação clínica"],
+			"ferramentas": ["Equipamentos de reabilitação", "Eletroterapia", "Prontuário eletrônico"],
+			"tendencias": ["Fisioterapia digital", "Exergames", "Reabilitação domiciliar"],
+			"empresasQueContratam": ["Clínicas de reabilitação", "Hospitais", "Centros esportivos"],
+			"influenciadores": [
+				{ "nome": "Dr. Fisio Online", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Reabilitação moderna", "canal": "FisioLab", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [{ "nome": "Fisio Network Brasil", "plataforma": "Telegram", "link": "https://t.me" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Anatomia e biomecânica", "descricao": "Base do movimento humano." },
+				{ "etapa": 2, "titulo": "Fisiologia", "descricao": "Funcionamento dos sistemas corporais." },
+				{ "etapa": 3, "titulo": "Avaliação postural", "descricao": "Diagnóstico inicial." },
+				{ "etapa": 4, "titulo": "Cinesiologia", "descricao": "Movimentos e aplicações clínicas." },
+				{ "etapa": 5, "titulo": "Eletroterapia", "descricao": "Uso terapêutico de correntes elétricas." },
+				{ "etapa": 6, "titulo": "Fisioterapia resp.", "descricao": "Atuação na área respiratória." },
+				{ "etapa": 7, "titulo": "Ortopedia", "descricao": "Lesões e reabilitação física." },
+				{ "etapa": 8, "titulo": "Neurologia", "descricao": "Reabilitação neurológica." },
+				{ "etapa": 9, "titulo": "Esportes", "descricao": "Prevenção e tratamento esportivo." },
+				{ "etapa": 10, "titulo": "Pediatria", "descricao": "Atuação com crianças." },
+				{ "etapa": 11, "titulo": "UTI e hospitalar", "descricao": "Atuação em ambiente hospitalar." },
+				{ "etapa": 12, "titulo": "TeleFisio", "descricao": "Reabilitação online." },
+				{ "etapa": 13, "titulo": "Prescrição de exercícios", "descricao": "Planos personalizados." },
+				{ "etapa": 14, "titulo": "Gestão clínica", "descricao": "Abrir e gerir consultório." },
+				{ "etapa": 15, "titulo": "Atuação avançada", "descricao": "Especializações de alto nível." }
+			]
+		},
+		{
+			"_id": "psicologo_clinico",
+			"area": "Saúde",
+			"nome": "Psicólogo(a) Clínico(a)",
+			"descricao": "Profissional responsável pelo atendimento psicológico e acompanhamento terapêutico.",
+			"rotina": "Atendimentos, avaliações, relatórios e estudos de caso.",
+			"requisitos": ["Graduação em Psicologia", "CRP ativo", "Ética profissional"],
+			"habilidades": ["Escuta ativa", "Diagnóstico clínico", "Comunicação"],
+			"ferramentas": ["Testes psicológicos", "Teleatendimento", "Prontuário digital"],
+			"tendencias": ["Terapia online", "Saúde mental corporativa", "Inteligência emocional"],
+			"empresasQueContratam": ["Clínicas", "Escolas", "Empresas", "Hospitais"],
+			"influenciadores": [
+				{ "nome": "Psicologia Viva", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Psicologia clínica na prática", "canal": "PsicoOnline", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [{ "nome": "Psicólogos Brasil", "plataforma": "Facebook", "link": "https://facebook.com" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Desenvolvimento humano", "descricao": "Bases da psicologia." },
+				{ "etapa": 2, "titulo": "Psicopatologia", "descricao": "Transtornos e diagnósticos." },
+				{ "etapa": 3, "titulo": "Abordagens terapêuticas", "descricao": "TCC, humanista, psicanálise etc." },
+				{ "etapa": 4, "titulo": "Ética", "descricao": "Normas e condutas." },
+				{ "etapa": 5, "titulo": "Entrevista clínica", "descricao": "Avaliação inicial." },
+				{ "etapa": 6, "titulo": "Terapia individual", "descricao": "Atuação com adultos." },
+				{ "etapa": 7, "titulo": "Terapia infantil", "descricao": "Psicologia do desenvolvimento." },
+				{ "etapa": 8, "titulo": "Psicologia hospitalar", "descricao": "Apoio em contextos clínicos." },
+				{ "etapa": 9, "titulo": "Terapia online", "descricao": "Atendimentos remotos." },
+				{ "etapa": 10, "titulo": "Avaliação psicológica", "descricao": "Testes e laudos." },
+				{ "etapa": 11, "titulo": "Saúde mental corporativa", "descricao": "Atuação em empresas." },
+				{ "etapa": 12, "titulo": "Casos complexos", "descricao": "Aprofundamento clínico." },
+				{ "etapa": 13, "titulo": "Supervisão", "descricao": "Acompanhamento profissional." },
+				{ "etapa": 14, "titulo": "Especialização", "descricao": "Pós-graduação específica." },
+				{ "etapa": 15, "titulo": "Atuação avançada", "descricao": "Trabalhos de alto impacto." }
+			]
+		},
+		{
+			"_id": "nutricionista",
+			"area": "Saúde",
+			"nome": "Nutricionista",
+			"descricao": "Profissional especializado em alimentação, dietas e promoção da saúde.",
+			"rotina": "Avaliações, prescrição de dietas e acompanhamento nutricional.",
+			"requisitos": ["Graduação", "CRN ativo", "Ciências da saúde"],
+			"habilidades": ["Planejamento alimentar", "Comunicação", "Atenção aos detalhes"],
+			"ferramentas": ["Apps nutricionais", "Balanças corporais", "Software dietético"],
+			"tendencias": ["Nutrição digital", "Nutrição esportiva", "Nutrição comportamental"],
+			"empresasQueContratam": ["Hospitais", "Clínicas", "Academias"],
+			"influenciadores": [
+				{ "nome": "Dra. Flávia Nedel", "plataforma": "Instagram", "link": "https://instagram.com" }
+			],
+			"conteudosYoutube": [{ "titulo": "Nutrição prática", "canal": "NutriTube", "link": "https://youtube.com" }],
+			"comunidades": [{ "nome": "Nutrição Brasil", "plataforma": "Telegram", "link": "https://t.me" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Bioquímica", "descricao": "Fundamentos da nutrição." },
+				{ "etapa": 2, "titulo": "Fisiologia digestiva", "descricao": "Como o corpo processa alimentos." },
+				{ "etapa": 3, "titulo": "Avaliação nutricional", "descricao": "Antropometria e exames." },
+				{ "etapa": 4, "titulo": "Planejamento dietético", "descricao": "Montagem de dietas." },
+				{ "etapa": 5, "titulo": "Atendimento clínico", "descricao": "Rotina profissional." },
+				{ "etapa": 6, "titulo": "Nutrição esportiva", "descricao": "Performance e suplementação." },
+				{ "etapa": 7, "titulo": "Nutrição coletiva", "descricao": "Atuação em escolas e empresas." },
+				{ "etapa": 8, "titulo": "Psiconutrição", "descricao": "Comportamento alimentar." },
+				{ "etapa": 9, "titulo": "Apps e ferramentas", "descricao": "Tecnologia aplicada." },
+				{ "etapa": 10, "titulo": "Laudos e documentações", "descricao": "Registros clínicos." },
+				{ "etapa": 11, "titulo": "Empreendedorismo", "descricao": "Criar consultório." },
+				{ "etapa": 12, "titulo": "Redes sociais", "descricao": "Conteúdo e presença digital." },
+				{ "etapa": 13, "titulo": "Dietas especiais", "descricao": "Vegana, low-carb, bariátrica etc." },
+				{ "etapa": 14, "titulo": "Pesquisa nutricional", "descricao": "Aplicação científica." },
+				{ "etapa": 15, "titulo": "Especialização", "descricao": "Pós ou mestrado." }
+			]
+		},
+		{
+			"_id": "tecnico_radiologia",
+			"area": "Saúde",
+			"nome": "Técnico de Radiologia",
+			"descricao": "Opera equipamentos de diagnóstico por imagem como raio-x, tomografia e ressonância.",
+			"rotina": "Atua em clínicas, hospitais e empresas de diagnóstico.",
+			"requisitos": ["Curso técnico", "Registro CONTER", "Noções de anatomia"],
+			"habilidades": ["Operação de máquinas", "Precisão técnica", "Segurança radiológica"],
+			"ferramentas": ["Raio-X", "Tomografia", "Ressonância"],
+			"tendencias": ["Diagnóstico digital", "IA na imagem médica", "Equipamentos mais seguros"],
+			"empresasQueContratam": ["Fleury", "DASA", "Hospitais"],
+			"influenciadores": [
+				{ "nome": "Radiologia Brasil", "plataforma": "Instagram", "link": "https://instagram.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Como funciona o raio-x", "canal": "MedTech", "link": "https://youtube.com" }
+			],
+			"comunidades": [{ "nome": "Radiologia BR", "plataforma": "WhatsApp", "link": "https://whatsapp.com" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Introdução à radiologia", "descricao": "Bases históricas." },
+				{ "etapa": 2, "titulo": "Anatomia humana", "descricao": "Corpo e estruturas." },
+				{ "etapa": 3, "titulo": "Física radiológica", "descricao": "Radiação e segurança." },
+				{ "etapa": 4, "titulo": "Técnicas de raio-x", "descricao": "Exames básicos." },
+				{ "etapa": 5, "titulo": "Tomografia", "descricao": "Exames avançados." },
+				{ "etapa": 6, "titulo": "Ressonância magnética", "descricao": "Tecnologia e exames." },
+				{ "etapa": 7, "titulo": "Proteção radiológica", "descricao": "Normas de segurança." },
+				{ "etapa": 8, "titulo": "Posicionamentos", "descricao": "Preparação do paciente." },
+				{ "etapa": 9, "titulo": "Prontuário digital", "descricao": "Ambiente digital." },
+				{ "etapa": 10, "titulo": "Controle de qualidade", "descricao": "Testes e manutenção." },
+				{ "etapa": 11, "titulo": "Interpretação básica", "descricao": "Sinais visíveis." },
+				{ "etapa": 12, "titulo": "Diagnóstico com IA", "descricao": "Assistentes inteligentes." },
+				{ "etapa": 13, "titulo": "Tomografia avançada", "descricao": "Cortes detalhados." },
+				{ "etapa": 14, "titulo": "Ressonância avançada", "descricao": "Protocolos avançados." },
+				{ "etapa": 15, "titulo": "Especializações", "descricao": "Mamografia, radioterapia etc." }
+			]
+		}
+	],
+	"Juridica": [
+		{
+			"_id": "advogado_civel",
+			"area": "Jurídica",
+			"nome": "Advogado Cível",
+			"descricao": "Atua em conflitos de natureza civil, como contratos, indenizações e disputas entre pessoas físicas e jurídicas.",
+			"rotina": "Analisa processos, redige petições, acompanha audiências e orienta clientes.",
+			"requisitos": ["Graduação em Direito", "OAB ativa", "Conhecimento do CPC"],
+			"habilidades": ["Argumentação", "Escrita jurídica", "Negociação"],
+			"ferramentas": ["JusBrasil", "PJe", "LexML"],
+			"tendencias": ["Automação jurídica", "Mediação online", "Legal Analytics"],
+			"empresasQueContratam": ["Escritórios de advocacia", "Empresas privadas", "Órgãos públicos"],
+			"influenciadores": [{ "nome": "Luiz Dellore", "plataforma": "YouTube", "link": "https://www.youtube.com" }],
+			"conteudosYoutube": [
+				{
+					"titulo": "Processo Civil atualizado",
+					"canal": "Loes Educação Jurídica",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [{ "nome": "Direito Civil BR", "plataforma": "Facebook", "link": "https://facebook.com" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Direito Civil", "descricao": "Fundamentos e princípios." },
+				{ "etapa": 2, "titulo": "Processo Civil", "descricao": "CPC e jurisprudências." },
+				{ "etapa": 3, "titulo": "Contratos", "descricao": "Redação e análise." },
+				{ "etapa": 4, "titulo": "Responsabilidade civil", "descricao": "Teoria e prática." },
+				{ "etapa": 5, "titulo": "Peticionamento", "descricao": "Estrutura de peças." },
+				{ "etapa": 6, "titulo": "Audiências", "descricao": "Técnicas e postura." },
+				{ "etapa": 7, "titulo": "Mediação", "descricao": "Métodos alternativos." },
+				{ "etapa": 8, "titulo": "Direito digital", "descricao": "LGPD e contratos tech." },
+				{ "etapa": 9, "titulo": "Jurisprudência", "descricao": "Pesquisa e análises." },
+				{ "etapa": 10, "titulo": "Legal Design", "descricao": "Clareza e objetividade." },
+				{ "etapa": 11, "titulo": "Compliance", "descricao": "Rotinas e normas." },
+				{ "etapa": 12, "titulo": "Soft Skills", "descricao": "Negociação e comunicação." },
+				{ "etapa": 13, "titulo": "Advocacia digital", "descricao": "Ferramentas modernas." },
+				{ "etapa": 14, "titulo": "Gestão de escritório", "descricao": "Fluxos e organização." },
+				{ "etapa": 15, "titulo": "Portfólio jurídico", "descricao": "Peças, cases e artigos." }
+			]
+		},
+		{
+			"_id": "advogado_penal",
+			"area": "Jurídica",
+			"nome": "Advogado Penal",
+			"descricao": "Atua em casos envolvendo crimes e infrações penais.",
+			"rotina": "Acompanha inquéritos, audiências, sustentações orais e elabora defesas criminais.",
+			"requisitos": ["Direito", "OAB", "Penal e Processo Penal"],
+			"habilidades": ["Oratória", "Raciocínio rápido", "Investigação"],
+			"ferramentas": ["PJe Criminal", "Sistemas de jurisprudência"],
+			"tendencias": ["Advocacia garantista", "Crimes digitais", "Análise de dados forense"],
+			"empresasQueContratam": ["Escritórios especializados", "Defensoria", "Tribunais"],
+			"influenciadores": [
+				{ "nome": "Aury Lopes Jr.", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Penal Simplificado", "canal": "Professor Damásio", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [{ "nome": "Direito Penal BR", "plataforma": "Telegram", "link": "https://t.me" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Direito Penal", "descricao": "Parte geral." },
+				{ "etapa": 2, "titulo": "Crimes em espécie", "descricao": "Estudo aprofundado." },
+				{ "etapa": 3, "titulo": "Processo Penal", "descricao": "Ritos e peças." },
+				{ "etapa": 4, "titulo": "Audiências e júri", "descricao": "Técnicas de oratória." },
+				{ "etapa": 5, "titulo": "Investigação criminal", "descricao": "Inquérito policial." },
+				{ "etapa": 6, "titulo": "Crimes digitais", "descricao": "Fraudes e invasões." },
+				{ "etapa": 7, "titulo": "Provas", "descricao": "Cadeia de custódia." },
+				{ "etapa": 8, "titulo": "Habeas corpus", "descricao": "Teoria e prática." },
+				{ "etapa": 9, "titulo": "Recursos", "descricao": "Estratégias." },
+				{ "etapa": 10, "titulo": "Sustentação oral", "descricao": "Entrega de argumentos." },
+				{ "etapa": 11, "titulo": "LGPD no penal", "descricao": "Proteção de dados." },
+				{ "etapa": 12, "titulo": "Crimes econômicos", "descricao": "Compliance e fraudes." },
+				{ "etapa": 13, "titulo": "Tribunal do Júri", "descricao": "Estratégias avançadas." },
+				{ "etapa": 14, "titulo": "Direito carcerário", "descricao": "Execução penal." },
+				{ "etapa": 15, "titulo": "Portfólio jurídico penal", "descricao": "Peças reais e estudos." }
+			]
+		},
+		{
+			"_id": "assistente_juridico",
+			"area": "Jurídica",
+			"nome": "Assistente Jurídico",
+			"descricao": "Auxilia advogados na elaboração de documentos e organização de processos.",
+			"rotina": "Pesquisa jurídica, elaboração de minutas, controle de prazos e arquivos.",
+			"requisitos": ["Graduação em Direito (cursando ou concluída)", "Atualização constante"],
+			"habilidades": ["Organização", "Pesquisa", "Escrita jurídica"],
+			"ferramentas": ["PJe", "Google Workspace", "JusBrasil"],
+			"tendencias": ["Legal Design", "Automação jurídica", "Paralegal especializado"],
+			"empresasQueContratam": ["Escritórios", "Empresas", "Prefeituras"],
+			"influenciadores": [{ "nome": "Advoga Mais", "plataforma": "YouTube", "link": "https://www.youtube.com" }],
+			"conteudosYoutube": [
+				{
+					"titulo": "Rotina de Assistente Jurídico",
+					"canal": "Foco Jurídico",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [
+				{ "nome": "Assistentes Jurídicos BR", "plataforma": "Facebook", "link": "https://facebook.com" }
+			],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Direito básico", "descricao": "Fundamentos gerais." },
+				{ "etapa": 2, "titulo": "Processo Civil", "descricao": "Prazos e peças." },
+				{ "etapa": 3, "titulo": "Peticionamento eletrônico", "descricao": "Uso do PJe." },
+				{ "etapa": 4, "titulo": "Pesquisa jurídica", "descricao": "Ferramentas e métodos." },
+				{ "etapa": 5, "titulo": "Redação", "descricao": "Clareza e formalidade." },
+				{ "etapa": 6, "titulo": "Organização de documentos", "descricao": "Controle de arquivos." },
+				{ "etapa": 7, "titulo": "Agenda jurídica", "descricao": "Prazos e rotinas." },
+				{ "etapa": 8, "titulo": "Contratos básicos", "descricao": "Leitura e revisão." },
+				{ "etapa": 9, "titulo": "Compliance básico", "descricao": "Processos internos." },
+				{ "etapa": 10, "titulo": "Soft Skills", "descricao": "Comunicação." },
+				{ "etapa": 11, "titulo": "Atendimento ao cliente", "descricao": "Triagem e organização." },
+				{ "etapa": 12, "titulo": "Ferramentas digitais", "descricao": "Produtividade." },
+				{ "etapa": 13, "titulo": "Revisão jurídica", "descricao": "Correções e alinhamentos." },
+				{ "etapa": 14, "titulo": "Gestão documental", "descricao": "Arquivos eletrônicos." },
+				{ "etapa": 15, "titulo": "Carreira jurídica", "descricao": "Crescimento profissional." }
+			]
+		},
+		{
+			"_id": "analista_compliance",
+			"area": "Jurídica",
+			"nome": "Analista de Compliance",
+			"descricao": "Garante que a empresa cumpra leis, normas e políticas internas.",
+			"rotina": "Auditorias, controles internos, prevenção de riscos e investigação.",
+			"requisitos": ["Direito", "Administração", "Conformidade regulatória"],
+			"habilidades": ["Análise crítica", "Gestão de riscos", "Comunicação"],
+			"ferramentas": ["GRC Tools", "Excel", "Power BI"],
+			"tendencias": ["Compliance digital", "ESG", "Proteção de dados"],
+			"empresasQueContratam": ["Bancos", "Indústrias", "Tecnologia"],
+			"influenciadores": [
+				{ "nome": "Compliance Brasil", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Introdução ao Compliance", "canal": "FGV", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [
+				{ "nome": "Comunidade Compliance BR", "plataforma": "LinkedIn", "link": "https://linkedin.com" }
+			],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Regulação", "descricao": "Leis e normativas." },
+				{ "etapa": 2, "titulo": "Gestão de riscos", "descricao": "Controles internos." },
+				{ "etapa": 3, "titulo": "Auditoria", "descricao": "Processos e evidências." },
+				{ "etapa": 4, "titulo": "Códigos de conduta", "descricao": "Implementação." },
+				{ "etapa": 5, "titulo": "Investigações internas", "descricao": "Procedimentos." },
+				{ "etapa": 6, "titulo": "Anticorrupção", "descricao": "Lei 12.846." },
+				{ "etapa": 7, "titulo": "LGPD", "descricao": "Proteção de dados." },
+				{ "etapa": 8, "titulo": "Treinamentos", "descricao": "Capacitações internas." },
+				{ "etapa": 9, "titulo": "Indicadores", "descricao": "KPIs e métricas." },
+				{ "etapa": 10, "titulo": "Excel", "descricao": "Planilhas profissionais." },
+				{ "etapa": 11, "titulo": "Power BI", "descricao": "Dashboards." },
+				{ "etapa": 12, "titulo": "GRC Tools", "descricao": "Ferramentas de gestão." },
+				{ "etapa": 13, "titulo": "Ethics Hotline", "descricao": "Canais de denúncia." },
+				{ "etapa": 14, "titulo": "Auditoria digital", "descricao": "Automação de controles." },
+				{ "etapa": 15, "titulo": "Carreira em compliance", "descricao": "Certificações e trilhas." }
+			]
+		},
+		{
+			"_id": "conciliador_mediador",
+			"area": "Jurídica",
+			"nome": "Conciliador/Mediador",
+			"descricao": "Atua intermediando conflitos para evitar processos judiciais.",
+			"rotina": "Sessões de conciliação, acordos, relatórios e comunicação com partes.",
+			"requisitos": ["Formação jurídica ou correlata", "Curso de Mediação judicial"],
+			"habilidades": ["Comunicação", "Neutralidade", "Gestão de conflitos"],
+			"ferramentas": ["CEJUSC", "Plataformas de conciliação online"],
+			"tendencias": ["ODR - Online Dispute Resolution", "Mediação digital"],
+			"empresasQueContratam": ["Tribunais", "Plataformas ODR", "Câmaras privadas"],
+			"influenciadores": [
+				{ "nome": "Instituto de Mediação", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [{ "titulo": "Mediação prática", "canal": "CNJ", "link": "https://www.youtube.com" }],
+			"comunidades": [{ "nome": "Mediadores BR", "plataforma": "LinkedIn", "link": "https://linkedin.com" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Noções jurídicas", "descricao": "Base legal." },
+				{ "etapa": 2, "titulo": "Mediação", "descricao": "Métodos e fases." },
+				{ "etapa": 3, "titulo": "Conciliação", "descricao": "Técnicas práticas." },
+				{ "etapa": 4, "titulo": "Comunicação não violenta", "descricao": "CNV aplicada." },
+				{ "etapa": 5, "titulo": "Psicologia básica", "descricao": "Interações humanas." },
+				{ "etapa": 6, "titulo": "Ética", "descricao": "Neutralidade." },
+				{ "etapa": 7, "titulo": "ODR", "descricao": "Resolução online." },
+				{ "etapa": 8, "titulo": "Relatórios", "descricao": "Documentação." },
+				{ "etapa": 9, "titulo": "Audiências simuladas", "descricao": "Prática real." },
+				{ "etapa": 10, "titulo": "Gestão emocional", "descricao": "Estabilidade." },
+				{ "etapa": 11, "titulo": "Legislação específica", "descricao": "Lei de mediação." },
+				{ "etapa": 12, "titulo": "Negociação", "descricao": "Acordos eficientes." },
+				{ "etapa": 13, "titulo": "Comunicação digital", "descricao": "Atuação remota." },
+				{ "etapa": 14, "titulo": "Plataformas ODR", "descricao": "Uso técnico." },
+				{ "etapa": 15, "titulo": "Certificações", "descricao": "Cursos reconhecidos." }
+			]
+		}
+	],
+	"Marketing": [
+		{
+			"_id": "analista_marketing_digital",
+			"area": "Marketing",
+			"nome": "Analista de Marketing Digital",
+			"descricao": "Planeja, executa e analisa estratégias de marketing em plataformas digitais.",
+			"rotina": "Cria campanhas, analisa métricas, faz otimizações e gerencia canais digitais.",
+			"requisitos": [
+				"Graduação em Marketing ou Comunicação",
+				"Conhecimento em métricas e analytics",
+				"Entendimento de funis e campanhas"
+			],
+			"habilidades": ["SEO", "Copywriting", "Análise de dados"],
+			"ferramentas": ["Google Analytics", "Meta Ads", "RD Station"],
+			"tendencias": ["IA no marketing", "Automação avançada", "Marketing orientado a dados"],
+			"empresasQueContratam": ["Agências digitais", "E-commerce", "Startups"],
+			"influenciadores": [
+				{ "nome": "Vitor Peçanha", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Marketing Digital para iniciantes",
+					"canal": "Rock Content",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [
+				{ "nome": "Marketing Digital Brasil", "plataforma": "LinkedIn", "link": "https://linkedin.com" }
+			],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos de Marketing",
+					"descricao": "Conceitos-base como 4Ps, persona, jornada e funil."
+				},
+				{
+					"etapa": 2,
+					"titulo": "Canais Digitais",
+					"descricao": "Entender SEO, social, mídia paga, inbound e e-mail."
+				},
+				{
+					"etapa": 3,
+					"titulo": "Ferramentas Essenciais",
+					"descricao": "Google Analytics, Search Console, Meta Business e RD Station."
+				},
+				{
+					"etapa": 4,
+					"titulo": "Gestão de Conteúdo",
+					"descricao": "Planejamento editorial, copywriting e SEO na prática."
+				},
+				{ "etapa": 5, "titulo": "Tráfego Pago", "descricao": "Campanhas no Google Ads e Meta Ads." },
+				{
+					"etapa": 6,
+					"titulo": "Analytics e KPIs",
+					"descricao": "Interpretação de métricas, dashboards e relatórios."
+				},
+				{
+					"etapa": 7,
+					"titulo": "Otimização e Testes",
+					"descricao": "Testes A/B, CRO e análise de performance."
+				},
+				{
+					"etapa": 8,
+					"titulo": "Automação de Marketing",
+					"descricao": "Fluxos de nutrição e segmentação avançada."
+				},
+				{
+					"etapa": 9,
+					"titulo": "Soft Skills",
+					"descricao": "Comunicação, análise crítica e resolução de problemas."
+				},
+				{
+					"etapa": 10,
+					"titulo": "Portfólio Digital",
+					"descricao": "Projetos reais, campanhas fictícias e cases medidos por métricas."
+				}
+			]
+		},
+		{
+			"_id": "gestor_de_trafego",
+			"area": "Marketing",
+			"nome": "Gestor de Tráfego",
+			"descricao": "Profissional responsável por criar, otimizar e escalar anúncios pagos.",
+			"rotina": "Gerencia campanhas, cria segmentações, analisa métricas e ajusta estratégias.",
+			"requisitos": ["Conhecimento em anúncios", "Entendimento de mensuração", "Conhecimento em copy e CRO"],
+			"habilidades": ["Análise de métricas", "Copywriting", "Gestão de orçamento"],
+			"ferramentas": ["Meta Ads", "Google Ads", "Tag Manager"],
+			"tendencias": ["Automação de campanhas", "IA na segmentação", "Atribuição multicanal"],
+			"empresasQueContratam": ["Agências", "E-commerce", "Infoprodutores"],
+			"influenciadores": [{ "nome": "Pedro Sobral", "plataforma": "YouTube", "link": "https://www.youtube.com" }],
+			"conteudosYoutube": [
+				{ "titulo": "Guia de tráfego pago", "canal": "Sobral Channel", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [{ "nome": "Comunidade Sobral", "plataforma": "Telegram", "link": "https://telegram.org" }],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos de Marketing Digital",
+					"descricao": "Jornada, personas, funis e comportamento do consumidor."
+				},
+				{ "etapa": 2, "titulo": "Meta Ads", "descricao": "Estrutura de campanhas, públicos e criativos." },
+				{
+					"etapa": 3,
+					"titulo": "Google Ads",
+					"descricao": "Rede de Pesquisa, Display, Performance Max e YouTube."
+				},
+				{
+					"etapa": 4,
+					"titulo": "Configuração de Tracking",
+					"descricao": "Pixel, Tag Manager, eventos e conversões."
+				},
+				{
+					"etapa": 5,
+					"titulo": "Estratégias de Segmentação",
+					"descricao": "Públicos quentes, frios, lookalike e remarketing."
+				},
+				{
+					"etapa": 6,
+					"titulo": "Criação e Teste de Criativos",
+					"descricao": "Análise de criativos, copy e testes A/B."
+				},
+				{
+					"etapa": 7,
+					"titulo": "Otimização de Campanhas",
+					"descricao": "Escala horizontal, vertical e estratégias de bidding."
+				},
+				{ "etapa": 8, "titulo": "CRO", "descricao": "Melhorar conversões em LPs, checkout e formulários." },
+				{
+					"etapa": 9,
+					"titulo": "Gestão de Orçamento",
+					"descricao": "Projeções, distribuição e controle de investimento."
+				},
+				{
+					"etapa": 10,
+					"titulo": "Case e Portfólio",
+					"descricao": "Relatórios, métricas alcançadas e resultados comprovados."
+				}
+			]
+		},
+		{
+			"_id": "social_media",
+			"area": "Marketing",
+			"nome": "Social Media",
+			"descricao": "Planeja e executa estratégias de conteúdo para redes sociais.",
+			"rotina": "Cria posts, agenda conteúdo, responde seguidores e analisa métricas.",
+			"requisitos": ["Conhecimento de redes sociais", "Noções de design", "Análise de dados"],
+			"habilidades": ["Criatividade", "Comunicação", "Storytelling"],
+			"ferramentas": ["Canva", "Metricool", "Hootsuite"],
+			"tendencias": ["Vídeo curto", "Social Commerce", "Comunidades digitais"],
+			"empresasQueContratam": ["Marcas", "Agências", "Influenciadores"],
+			"influenciadores": [{ "nome": "Camila Porto", "plataforma": "Instagram", "link": "https://instagram.com" }],
+			"conteudosYoutube": [
+				{
+					"titulo": "Como criar conteúdos virais",
+					"canal": "Resultados Digitais",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [{ "nome": "Social Media BR", "plataforma": "Discord", "link": "https://discord.com" }],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos das Redes Sociais",
+					"descricao": "Algoritmos, formatos de conteúdo e comportamento."
+				},
+				{
+					"etapa": 2,
+					"titulo": "Identidade da Marca",
+					"descricao": "Tom de voz, posicionamento e linha editorial."
+				},
+				{
+					"etapa": 3,
+					"titulo": "Criação de Conteúdo",
+					"descricao": "Design, edição de vídeo, fotos e copywriting."
+				},
+				{
+					"etapa": 4,
+					"titulo": "Planejamento de Conteúdo",
+					"descricao": "Calendário editorial, organização e cronograma."
+				},
+				{
+					"etapa": 5,
+					"titulo": "Ferramentas de Gestão",
+					"descricao": "Meta Business, Hootsuite, Metricool e Canva."
+				},
+				{
+					"etapa": 6,
+					"titulo": "Interação e Comunidade",
+					"descricao": "Atendimento, engajamento e gerenciamento de feedbacks."
+				},
+				{
+					"etapa": 7,
+					"titulo": "Growth para Social",
+					"descricao": "Técnicas para aumentar alcance e viralização."
+				},
+				{
+					"etapa": 8,
+					"titulo": "Análise de Métricas",
+					"descricao": "KPIs como alcance, engajamento e conversão."
+				},
+				{
+					"etapa": 9,
+					"titulo": "Tendências e Novos Formatos",
+					"descricao": "Reels, TikTok, UGC e conteúdos ultra curtos."
+				},
+				{
+					"etapa": 10,
+					"titulo": "Portfólio Criativo",
+					"descricao": "Casos reais, posts produzidos e análise de resultados."
+				}
+			]
+		},
+		{
+			"_id": "especialista_branding",
+			"area": "Marketing",
+			"nome": "Especialista em Branding",
+			"descricao": "Constrói e gerencia a identidade de uma marca para fortalecer sua percepção no mercado.",
+			"rotina": "Define posicionamento, coordena identidade visual e cria estratégias de marca.",
+			"requisitos": ["Conhecimento em marketing", "Design e comunicação", "Pesquisa de mercado"],
+			"habilidades": ["Storytelling", "Planejamento estratégico", "Visão de marca"],
+			"ferramentas": ["Miro", "Canva", "Notion"],
+			"tendencias": ["Marcas humanizadas", "Branding emocional", "IA no design"],
+			"empresasQueContratam": ["Startups", "Agências", "Corporates"],
+			"influenciadores": [{ "nome": "Ana Couto", "plataforma": "YouTube", "link": "https://www.youtube.com" }],
+			"conteudosYoutube": [
+				{ "titulo": "Branding na prática", "canal": "Ana Couto", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [{ "nome": "Branding Brasil", "plataforma": "LinkedIn", "link": "https://linkedin.com" }],
+			"roadmap": [
+				{ "etapa": 1, "titulo": "Fundamentos de Branding", "descricao": "O que é marca, percepção e valor." },
+				{
+					"etapa": 2,
+					"titulo": "Arquetipos e Posicionamento",
+					"descricao": "Estratégias de personalidade e propósito da marca."
+				},
+				{
+					"etapa": 3,
+					"titulo": "Identidade Visual",
+					"descricao": "Tipografia, paleta, símbolos e manual de marca."
+				},
+				{
+					"etapa": 4,
+					"titulo": "Arquitetura de Marca",
+					"descricao": "House of brands, branded house e expansão."
+				},
+				{
+					"etapa": 5,
+					"titulo": "Brand Voice e Mensagens-Chave",
+					"descricao": "Tom de voz, storytelling e comunicação unificada."
+				},
+				{
+					"etapa": 6,
+					"titulo": "Pesquisa e Imersão",
+					"descricao": "Benchmarking, entrevistas e análise de mercado."
+				},
+				{ "etapa": 7, "titulo": "Brand Experience", "descricao": "Como o usuário experimenta a marca." },
+				{
+					"etapa": 8,
+					"titulo": "Branding Digital",
+					"descricao": "Aplicação em redes sociais, sites e campanhas."
+				},
+				{
+					"etapa": 9,
+					"titulo": "Gestão e Governança da Marca",
+					"descricao": "Consistency, guidelines e auditoria de marca."
+				},
+				{
+					"etapa": 10,
+					"titulo": "Portfólio de Branding",
+					"descricao": "Cases didáticos com processos e entregáveis reais."
+				}
+			]
+		},
+		{
+			"_id": "copywriter",
+			"area": "Marketing",
+			"nome": "Copywriter",
+			"descricao": "Escreve textos persuasivos para anúncios, páginas de venda e conteúdos.",
+			"rotina": "Cria mensagens estratégicas, entende o público e testa variações de copy.",
+			"requisitos": ["Domínio de escrita", "Conhecimento de marketing", "Psicologia do consumidor"],
+			"habilidades": ["Persuasão", "Storytelling", "Pesquisa"],
+			"ferramentas": ["Google Docs", "Notion", "ChatGPT"],
+			"tendencias": ["Copy com IA", "Neuromarketing", "Storyselling"],
+			"empresasQueContratam": ["Agências", "E-commerce", "Infoprodutores"],
+			"influenciadores": [
+				{ "nome": "Rafael Albertoni", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Fundamentos de Copywriting", "canal": "Albertoni", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [{ "nome": "Copywriters BR", "plataforma": "Telegram", "link": "https://telegram.org" }],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos de Persuasão",
+					"descricao": "Entender gatilhos mentais e psicologia do consumidor."
+				},
+				{ "etapa": 2, "titulo": "Pesquisa e Imersão", "descricao": "Conhecer profundamente o público-alvo." },
+				{ "etapa": 3, "titulo": "Estruturas de Copy", "descricao": "AIDA, PAS, BAB, 4Ps e outras fórmulas." },
+				{
+					"etapa": 4,
+					"titulo": "Copy para Anúncios",
+					"descricao": "Textos curtos focados em atenção e cliques."
+				},
+				{
+					"etapa": 5,
+					"titulo": "Copy para Landing Pages",
+					"descricao": "Construção de páginas que convertem."
+				},
+				{ "etapa": 6, "titulo": "E-mail Marketing", "descricao": "Funis, nutrição, headlines e automação." },
+				{
+					"etapa": 7,
+					"titulo": "Storytelling e Storyselling",
+					"descricao": "Narrativas para gerar conexão e desejo."
+				},
+				{
+					"etapa": 8,
+					"titulo": "Testes e Otimizações",
+					"descricao": "Testes A/B, métricas e melhoria contínua."
+				},
+				{
+					"etapa": 9,
+					"titulo": "Criação de Portfólio",
+					"descricao": "Construção de cases mesmo sem clientes."
+				},
+				{
+					"etapa": 10,
+					"titulo": "Posicionamento Profissional",
+					"descricao": "LinkedIn, networking e apresentação como copywriter."
+				}
+			]
+		}
+	],
+	"Engenharia": [
+		{
+			"_id": "engenheiro_civil",
+			"area": "Engenharia",
+			"nome": "Engenheiro Civil",
+			"descricao": "Profissional responsável por projetar, executar e supervisionar obras de infraestrutura e edificações.",
+			"rotina": "Realiza cálculos estruturais, acompanha obras, elabora relatórios e coordena equipes.",
+			"requisitos": ["Graduação em Engenharia Civil", "CREA ativo", "Conhecimento em normas técnicas"],
+			"habilidades": ["Cálculo estrutural", "Gestão de obras", "Leitura de projetos"],
+			"ferramentas": ["AutoCAD", "Revit", "TQS"],
+			"tendencias": ["BIM", "Construção sustentável", "Modelagem 3D avançada"],
+			"empresasQueContratam": ["Construtoras", "Empresas de infraestrutura", "Escritórios de engenharia"],
+			"influenciadores": [
+				{ "nome": "Engenharia Com Você", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Cálculo estrutural na prática", "canal": "E-Civil", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [{ "nome": "Engenheiros Brasil", "plataforma": "LinkedIn", "link": "https://linkedin.com" }],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos da Engenharia Civil",
+					"descricao": "Cálculo, física, geometria analítica e desenho técnico."
+				},
+				{
+					"etapa": 2,
+					"titulo": "Materiais de Construção",
+					"descricao": "Propriedades, aplicações e normas técnicas."
+				},
+				{ "etapa": 3, "titulo": "Estruturas", "descricao": "Concreto armado, metálicas e análise estrutural." },
+				{ "etapa": 4, "titulo": "Geotecnia", "descricao": "Solos, fundações e sondagens." },
+				{
+					"etapa": 5,
+					"titulo": "Hidráulica e Saneamento",
+					"descricao": "Drenagem, abastecimento e tratamento de água."
+				},
+				{
+					"etapa": 6,
+					"titulo": "Projetos Arquitetônicos e BIM",
+					"descricao": "Autodesk Revit, AutoCAD, compatibilização e modelagem."
+				},
+				{
+					"etapa": 7,
+					"titulo": "Gestão de Obras",
+					"descricao": "Planejamento, cronogramas, custos e segurança (NRs)."
+				},
+				{ "etapa": 8, "titulo": "Normas Técnicas", "descricao": "NBRs, inspeções, laudos e regulamentações." },
+				{ "etapa": 9, "titulo": "Soft Skills", "descricao": "Comunicação, liderança e trabalho em campo." },
+				{ "etapa": 10, "titulo": "Portfólio Técnico", "descricao": "Projetos, memoriais, ARTs e cases." }
+			]
+		},
+		{
+			"_id": "engenheiro_software",
+			"area": "Engenharia",
+			"nome": "Engenheiro de Software",
+			"descricao": "Projeta, desenvolve, testa e mantém sistemas e aplicações de software.",
+			"rotina": "Participa de arquitetura, escreve código, revisa PRs, implementa testes e otimiza sistemas.",
+			"requisitos": [
+				"Graduação em Engenharia/Computação",
+				"Conhecimento em estruturas de dados",
+				"Domínio de linguagens modernas"
+			],
+			"habilidades": ["Programação", "Análise de sistemas", "Resolução de problemas"],
+			"ferramentas": ["Git", "Docker", "VSCode"],
+			"tendencias": ["IA generativa", "Arquitetura de microsserviços", "Computação em nuvem"],
+			"empresasQueContratam": ["Startups", "Big techs", "Empresas de tecnologia"],
+			"influenciadores": [
+				{ "nome": "Filipe Deschamps", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Arquitetura e boas práticas",
+					"canal": "Danilo Aparecido",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [{ "nome": "DevBR", "plataforma": "Discord", "link": "https://discord.com" }],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos de Mecânica",
+					"descricao": "Física, cálculo, resistência dos materiais e termodinâmica."
+				},
+				{ "etapa": 2, "titulo": "Desenho Técnico e CAD", "descricao": "SolidWorks, Inventor, AutoCAD." },
+				{
+					"etapa": 3,
+					"titulo": "Processos de Fabricação",
+					"descricao": "Usinagem, soldagem, fundição e manufatura."
+				},
+				{ "etapa": 4, "titulo": "Elementos de Máquinas", "descricao": "Componentes, análises e cálculos." },
+				{
+					"etapa": 5,
+					"titulo": "Termodinâmica e Máquinas Térmicas",
+					"descricao": "Refrigeração, motores e sistemas térmicos."
+				},
+				{ "etapa": 6, "titulo": "Vibrações e Dinâmica", "descricao": "Mecânica dos sistemas e simulações." },
+				{ "etapa": 7, "titulo": "Análise Estrutural", "descricao": "Elementos finitos e simulações (ANSYS)." },
+				{ "etapa": 8, "titulo": "Projeto de Máquinas", "descricao": "Desenvolvimento e protótipos." },
+				{ "etapa": 9, "titulo": "Gestão e Manutenção", "descricao": "TPM, PCM e indústria 4.0." },
+				{
+					"etapa": 10,
+					"titulo": "Portfólio Técnico",
+					"descricao": "Projetos 3D, desenhos, simulações e relatórios."
+				}
+			]
+		},
+		{
+			"_id": "engenheiro_eletricista",
+			"area": "Engenharia",
+			"nome": "Engenheiro Eletricista",
+			"descricao": "Atua no desenvolvimento, análise e manutenção de sistemas e instalações elétricas.",
+			"rotina": "Projeta circuitos, realiza medições, supervisiona instalações e emite laudos técnicos.",
+			"requisitos": ["Graduação em Engenharia Elétrica", "CREA ativo", "Conhecimento de normas NBR e NR10"],
+			"habilidades": ["Dimensionamento elétrico", "Análise de carga", "Projeto de circuitos"],
+			"ferramentas": ["AutoCAD Electrical", "ETAP", "QGIS"],
+			"tendencias": ["Energias renováveis", "Smart grids", "Automação avançada"],
+			"empresasQueContratam": ["Indústrias", "Companhias de energia", "Construtoras"],
+			"influenciadores": [
+				{ "nome": "Sala da Elétrica", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Instalações elétricas completas",
+					"canal": "Engenharia Elétrica",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [{ "nome": "Elétrica & Energia", "plataforma": "Facebook", "link": "https://facebook.com" }],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos de Eletricidade",
+					"descricao": "Circuitos, leis de Kirchhoff, corrente e tensão."
+				},
+				{ "etapa": 2, "titulo": "Eletrônica", "descricao": "Analógica e digital, componentes e aplicações." },
+				{ "etapa": 3, "titulo": "Sistemas de Potência", "descricao": "Geração, transmissão e distribuição." },
+				{
+					"etapa": 4,
+					"titulo": "Instalações Elétricas",
+					"descricao": "Projetos, NBR 5410, diagramas e dispositivos."
+				},
+				{ "etapa": 5, "titulo": "Máquinas Elétricas", "descricao": "Motores, transformadores e acionamentos." },
+				{ "etapa": 6, "titulo": "Automação Industrial", "descricao": "CLP, sensores, redes industriais." },
+				{
+					"etapa": 7,
+					"titulo": "Energia Renovável",
+					"descricao": "Sistemas solares, eólicos e cálculos energéticos."
+				},
+				{
+					"etapa": 8,
+					"titulo": "Softwares Técnicos",
+					"descricao": "AutoCAD Electrical, QElectroTech, Matlab."
+				},
+				{ "etapa": 9, "titulo": "Normas e Segurança", "descricao": "NR-10, aterramento e proteção." },
+				{ "etapa": 10, "titulo": "Portfólio Técnico", "descricao": "Diagramas, projetos e simulações." }
+			]
+		},
+		{
+			"_id": "engenheiro_producao",
+			"area": "Engenharia",
+			"nome": "Engenheiro de Produção",
+			"descricao": "Responsável por otimizar processos produtivos, reduzir custos e aumentar eficiência.",
+			"rotina": "Analisa fluxos, define KPIs, desenvolve melhorias e implementa metodologias Lean.",
+			"requisitos": [
+				"Graduação em Engenharia de Produção",
+				"Conhecimento em estatística",
+				"Domínio de métodos de qualidade"
+			],
+			"habilidades": ["Gestão de processos", "Análise de dados", "Lean Manufacturing"],
+			"ferramentas": ["Minitab", "Power BI", "Excel avançado"],
+			"tendencias": ["Indústria 4.0", "Automação e IoT", "Data-driven operations"],
+			"empresasQueContratam": ["Indústrias", "Consultorias", "Centros logísticos"],
+			"influenciadores": [
+				{ "nome": "Falando de Produção", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{ "titulo": "Lean na prática", "canal": "Caio Botura Engenharia", "link": "https://www.youtube.com" }
+			],
+			"comunidades": [
+				{ "nome": "Engenharia de Produção BR", "plataforma": "LinkedIn", "link": "https://linkedin.com" }
+			],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos de Programação",
+					"descricao": "Lógica, algoritmos e linguagens base."
+				},
+				{ "etapa": 2, "titulo": "Estruturas de Dados", "descricao": "Listas, árvores, grafos e complexidade." },
+				{
+					"etapa": 3,
+					"titulo": "Desenvolvimento Backend",
+					"descricao": "APIs, bancos de dados e arquitetura."
+				},
+				{
+					"etapa": 4,
+					"titulo": "Desenvolvimento Frontend",
+					"descricao": "React, Angular, UX e padrões modernos."
+				},
+				{ "etapa": 5, "titulo": "DevOps e Infra", "descricao": "Docker, CI/CD e cloud (AWS, Azure, GCP)." },
+				{ "etapa": 6, "titulo": "Arquitetura de Software", "descricao": "DDD, microsserviços, patterns." },
+				{ "etapa": 7, "titulo": "Testes e Qualidade", "descricao": "TDD, testes unitários, integração e QA." },
+				{ "etapa": 8, "titulo": "Segurança", "descricao": "OWASP, autenticação e criptografia." },
+				{ "etapa": 9, "titulo": "Soft Skills", "descricao": "Comunicação, análise e documentação." },
+				{ "etapa": 10, "titulo": "Portfólio e Projetos", "descricao": "Apps, APIs e desafios práticos." }
+			]
+		},
+		{
+			"_id": "engenheiro_mecanico",
+			"area": "Engenharia",
+			"nome": "Engenheiro Mecânico",
+			"descricao": "Projeta, analisa e supervisiona sistemas mecânicos, máquinas e equipamentos industriais.",
+			"rotina": "Desenvolve protótipos, realiza simulações, acompanha testes e faz estudos térmicos e estruturais.",
+			"requisitos": [
+				"Graduação em Engenharia Mecânica",
+				"CREA ativo",
+				"Conhecimento em resistência dos materiais"
+			],
+			"habilidades": ["Modelagem 3D", "Termodinâmica", "Cálculo estrutural"],
+			"ferramentas": ["SolidWorks", "ANSYS", "AutoCAD Mechanical"],
+			"tendencias": ["Manufatura aditiva (3D printing)", "Simulações avançadas", "Robótica industrial"],
+			"empresasQueContratam": ["Indústrias automotivas", "Metalúrgicas", "Setor aeroespacial"],
+			"influenciadores": [
+				{ "nome": "Mundo da Engenharia", "plataforma": "YouTube", "link": "https://www.youtube.com" }
+			],
+			"conteudosYoutube": [
+				{
+					"titulo": "Modelagem e simulação mecânica",
+					"canal": "Engenharia Mecânica",
+					"link": "https://www.youtube.com"
+				}
+			],
+			"comunidades": [
+				{ "nome": "Engenharia Mecânica BR", "plataforma": "LinkedIn", "link": "https://linkedin.com" }
+			],
+			"roadmap": [
+				{
+					"etapa": 1,
+					"titulo": "Fundamentos de Engenharia de Produção",
+					"descricao": "Cálculo, estatística e processos."
+				},
+				{
+					"etapa": 2,
+					"titulo": "Gestão da Qualidade",
+					"descricao": "ISO, Six Sigma, ferramentas da qualidade."
+				},
+				{
+					"etapa": 3,
+					"titulo": "Gestão de Processos",
+					"descricao": "Mapeamento, otimização e melhoria contínua."
+				},
+				{ "etapa": 4, "titulo": "Lean Manufacturing", "descricao": "Kaizen, Kanban, 5S e desperdícios." },
+				{
+					"etapa": 5,
+					"titulo": "Logística e Cadeia de Suprimentos",
+					"descricao": "Transporte, estoque, PPCP."
+				},
+				{ "etapa": 6, "titulo": "Gestão de Projetos", "descricao": "PMBOK, SCRUM, cronogramas e custos." },
+				{ "etapa": 7, "titulo": "Indústria 4.0", "descricao": "Automação, IoT, análise de dados." },
+				{
+					"etapa": 8,
+					"titulo": "Ferramentas Analíticas",
+					"descricao": "Power BI, Excel avançado, simulações."
+				},
+				{ "etapa": 9, "titulo": "Soft Skills", "descricao": "Liderança, negociação, comunicação." },
+				{ "etapa": 10, "titulo": "Portfólio Técnico", "descricao": "Projetos, melhorias e estudos de caso." }
+			]
+		}
+	]
+}
