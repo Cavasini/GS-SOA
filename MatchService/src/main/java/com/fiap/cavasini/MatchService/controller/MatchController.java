@@ -4,6 +4,7 @@ import com.fiap.cavasini.MatchService.model.BeginnerRequestDTO;
 import com.fiap.cavasini.MatchService.model.TransitionerRequestDTO;
 import com.fiap.cavasini.MatchService.service.TesteService;
 import jakarta.validation.Valid;
+import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,19 +15,16 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/v1/match")
+@AllArgsConstructor
 public class MatchController {
 
     private TesteService testeService;
 
-    public MatchController(TesteService testeService){
-        this.testeService = testeService;
-    }
-
     @PostMapping("/transition")
     public ResponseEntity MatchTransitionCareer(@Valid @RequestBody TransitionerRequestDTO request){
-        String result  = testeService.perguntar("quanto é 1 + 1");
-        return ResponseEntity.ok(result);
-
+        String prompt = testeService.createPrompt(request);
+        String response = testeService.perguntar(prompt);
+        return ResponseEntity.ok(response);
     }
 
     @PostMapping("/beginner")
