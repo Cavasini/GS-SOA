@@ -1,5 +1,6 @@
 package com.fiap.cavasini.CareerService.controller;
 
+import com.fiap.cavasini.CareerService.model.AreaCareersResponse;
 import com.fiap.cavasini.CareerService.model.Career;
 import com.fiap.cavasini.CareerService.service.CareerLoader;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,5 +21,11 @@ public class CareerController {
     public List<Career> teste(){
        List<Career> careers = careerLoader.loadCareers();
        return careers;
+    }
+
+
+    @GetMapping("/summaries")
+    public List<AreaCareersResponse> getSummaries(){
+        return careerLoader.loadAreasAndCareers();
     }
 }
