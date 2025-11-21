@@ -4,7 +4,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class GeminiResponse {
+public class GeminiResponseDTO {
 
     private List<Candidate> candidates;
     private UsageMetadata usageMetadata;

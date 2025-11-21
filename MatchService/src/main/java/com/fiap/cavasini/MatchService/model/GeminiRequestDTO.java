@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class GeminiRequest {
+public class GeminiRequestDTO {
     private List<Content> contents;
 
     @Data

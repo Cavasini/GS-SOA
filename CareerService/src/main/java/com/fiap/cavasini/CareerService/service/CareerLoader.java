@@ -46,7 +46,6 @@ public class CareerLoader {
 
     public List<AreaCareersResponse> loadAreasAndCareers() {
         try {
-            // Lê o mapa: área -> lista de carreiras completas
             Map<String, List<Career>> data = mapper.readValue(
                     new File(filePath),
                     new TypeReference<Map<String, List<Career>>>() {}
@@ -58,7 +57,6 @@ public class CareerLoader {
                 String area = entry.getKey();
                 List<Career> careers = entry.getValue();
 
-                // Extrai só id e nome
                 List<CareerSummary> summaries = careers.stream()
                         .map(c -> new CareerSummary(c._id, c.nome))
                         .toList();
