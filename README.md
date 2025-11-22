@@ -28,7 +28,7 @@ Responsável por toda a camada de identidade:
 - Geração e validação de tokens JWT   
 
 📄 **Documentação completa:**  
-➡️ [AuthService README](./auth-service/README.md)
+➡️ [AuthService README](./AuthService/AuthServiceREADME.md)
 
 ---
 
