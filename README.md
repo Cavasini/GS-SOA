@@ -46,7 +46,7 @@ Funcionalidades:
 - Fornece dados para o MatchService  
 
 📄 **Documentação completa:**  
-➡️ [CareerService README](./career-service/README.md)
+➡️ [CareerService README](./CareerService/README.md)
 
 ## 🧠 MatchService — Serviço de Match de Carreira
 
