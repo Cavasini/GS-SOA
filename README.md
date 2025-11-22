@@ -67,7 +67,7 @@ Este serviço é responsável por analisar o **perfil do usuário** e encontrar 
 - Retorna a carreira (ou lista de carreiras) com maior "match" e insights sobre a escolha 
 
 📄 **Documentação completa:**  
-➡️ [MatchService README](./match-service/README.md)
+➡️ [MatchService README](./MatchService/README.md)
 
 ---
 
