@@ -32,17 +32,18 @@ Usado quando o usuário _já possui uma área atual_ e deseja migrar para outra 
 
 ## 📥 Request Body
 
-json
+```json
 {
-"currentArea": "string",
-"desiredCareer": "string",
-"skills": [
-{
-"name": "string",
-"level": 1
+	"currentArea": "string",
+	"desiredCareer": "string",
+	"skills": [
+		{
+			"name": "string",
+			"level": 1
+		}
+	]
 }
-]
-}
+```
 
 ### Campos:
 
@@ -56,22 +57,20 @@ json
 
 ## 📤 Response Body
 
-json
+```json
 {
-"transferableSkills": [
-{
-"skill": "string",
-"reason": "string"
+	"transferableSkills": [
+		{
+			"skill": "string",
+			"reason": "string"
+		}
+	],
+	"skillGaps": ["string"],
+	"howToStart": ["string"],
+	"narrativeSummary": "string"
 }
-],
-"skillGaps": [
-"string"
-],
-"howToStart": [
-"string"
-],
-"narrativeSummary": "string"
-}
+
+```
 
 ### Descrição dos retornos:
 
@@ -88,14 +87,12 @@ Endpoint utilizado quando o usuário não possui experiência prévia e deseja d
 
 ## 📥 Request Body
 
-json
+```json
 {
-"userId": "user_456",
-"interests": [
-"Resolver problemas",
-"Entender como sistemas funcionam"
-]
+	"userId": "user_456",
+	"interests": ["Resolver problemas", "Entender como sistemas funcionam"]
 }
+```
 
 ### Campos:
 
@@ -108,25 +105,26 @@ json
 
 ## 📤 Response Body
 
-json
+```json
 {
-"recommendedArea": "string",
-"recommendedCareer": "string",
-"reason": "string",
-"interestConnections": [
-{
-"interest": "string",
-"explanation": "string"
+	"recommendedArea": "string",
+	"recommendedCareer": "string",
+	"reason": "string",
+	"interestConnections": [
+		{
+			"interest": "string",
+			"explanation": "string"
+		}
+	],
+	"alternatives": [
+		{
+			"career": "string",
+			"reason": "string"
+		}
+	],
+	"summaryNarrative": "string"
 }
-],
-"alternatives": [
-{
-"career": "string",
-"reason": "string"
-}
-],
-"summaryNarrative": "string"
-}
+```
 
 ### Descrição dos retornos:
 
